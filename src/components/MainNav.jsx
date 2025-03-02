@@ -1,7 +1,7 @@
 import { Link, NavLink } from 'react-router-dom';
 import img1 from "../assets/react.svg"
 
-export default function MainNav() {
+ function MainNav() {
     return (
         <>
             <nav className="navbar navbar-expand-sm navbar-light bg-light">
@@ -48,3 +48,5 @@ export default function MainNav() {
 
     );
 }
+
+export default MainNav

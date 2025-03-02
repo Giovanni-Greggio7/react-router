@@ -1,6 +1,9 @@
 const ChiSiamo = () => {
     return (
-        <h1>Chi siamo</h1>
+        <div className="container">
+            <h1 className="text-center">Chi siamo</h1>
+        </div>
+        
     )
 }
 

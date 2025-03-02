@@ -1,6 +1,8 @@
 const ListaDeiPost = () => {
     return (
-        <h1>Lista dei post</h1>
+        <div className="container">
+            <h1 className="text-center">Lista dei post</h1>
+        </div>
     )
 }
 
