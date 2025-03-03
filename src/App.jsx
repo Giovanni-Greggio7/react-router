@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage.jsx'
 import ChiSiamo from './pages/ChiSiamo.jsx'
 import ListaDeiPost from './pages/posts/ListaDeiPost.jsx'
-import SinglePost from './pages/posts/SinglePost';
+import SinglePost from './pages/posts/SinglePost.jsx';
 
 import DefaultLayout from "./layouts/DefaultLayout"
 
@@ -21,7 +21,6 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-
     </>
   )
 }
