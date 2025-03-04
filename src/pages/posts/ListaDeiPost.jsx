@@ -6,7 +6,7 @@ const ListaDeiPost = () => {
 
     const [posts, setPosts] = useState([])
 
-    const url = 'http://localhost:3000/posts.js'
+    const url = import.meta.env.VITE_ENDPOINT_URL;
 
     // useEffect(() => {
     //     console.log(url)
@@ -39,7 +39,6 @@ const ListaDeiPost = () => {
                                     <div className="card-body">
                                         <h3 className="card-title">{e.title}</h3>
                                         <img src={e.image} width={'200px'} alt="" />
-                                        <p className="card-text">{e.content}</p>
                                     </div>
                                 </div>
                             </NavLink>
